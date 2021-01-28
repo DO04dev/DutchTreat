@@ -21,7 +21,7 @@ namespace DutchTreat
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseDefaultFiles();
+            app.UseDefaultFiles(); //look for a blank url, in the wwwroot, changes the internal path to the file
             app.UseStaticFiles();
         }
     }

@@ -1,0 +1,16 @@
+﻿body {
+    font-family: 'Century Gothic', Tahoma, Verdana, sans-serif;
+}
+
+input, textarea {
+    font-style: normal;
+    width: 200px;
+}
+
+input[type=submit]{
+    width: auto;
+}
+
+label{
+    font-size: 16px;
+}
